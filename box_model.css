@@ -1,0 +1,59 @@
+/* Accent 1: #165fb9, Accent 2: #c51162 */
+
+body {
+  background-color: #ffffff;
+  padding: 24px;
+  font-family: Arial, sans-serif;
+}
+
+h1, h2, h3 {
+  color: #165fb9;
+}
+
+h1 {
+  text-align: center;
+}
+
+p, li, th, td {
+  font-size: 18px;
+}
+
+table {
+  border-collapse: collapse;
+  margin: 20px auto;
+}
+
+th, td {
+  border: 3px dashed #c51162;
+  padding: 10px;
+}
+
+a {
+  color: #165fb9;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #c51162;
+  text-decoration: none;
+}
+
+/* Paragraph in Text Content section */
+.demo {
+  background-color: #165fb9;
+  color: #ffffff;
+  width: 420px;
+  padding: 16px;
+  border: 4px dotted #c51162;
+  margin: 24px;
+}
+
+/* Div around the image */
+.image-box {
+  background-color: #165fb9;
+  width: 646px;
+  padding: 16px;
+  border: 4px groove #c51162;
+  margin: 24px auto;
+}
